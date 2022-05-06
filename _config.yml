@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 일기같은 블로그 # the main title
+title: 기록을 위한 블로그 # the main title
 
 tagline: CS, 개발, 취업 준비 등 여러가지를 공유하기 위한 블로그입니다! # it will display as the sub-title
 
