@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</description>
+    <link>https://limchaejune.github.io/</link>
+    <atom:link href="https://limchaejune.github.io//feed.xml" rel="self" type="application/rss+xml" />
+	<lastBuildDate>Sat, 23 Jul 2022 00:00:00 +0900</lastBuildDate>
+	
+	<item>
+		<title>Post23</title>
+        
+        
+            <description>
+</description>
+        
+        <pubDate>Sat, 23 Jul 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post23/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post23/</guid>
+      </item>
+    
+	<item>
+		<title>NextJs 웹 어플리케이션 최적화 (트리셰이킹)</title>
+        
+        
+            <description>&lt;h1 id=&quot;tree-shaking&quot;&gt;Tree Shaking&lt;/h1&gt;
+</description>
+        
+        <pubDate>Mon, 04 Jul 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post22/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post22/</guid>
+      </item>
+    
+	<item>
+		<title>NextJs Environment Variable (환경변수) 설정하기</title>
+        
+        
+            <description>&lt;h1 id=&quot;nextjs-environmnet-variable&quot;&gt;NextJs Environmnet Variable&lt;/h1&gt;
+</description>
+        
+        <pubDate>Wed, 08 Jun 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post21/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post21/</guid>
+      </item>
+    
+	<item>
+		<title>IPFS</title>
+        
+        
+            <description>&lt;h1 id=&quot;여담&quot;&gt;여담&lt;/h1&gt;
+</description>
+        
+        <pubDate>Fri, 03 Jun 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post20/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post20/</guid>
+      </item>
+    
+	<item>
+		<title>블록체인의 채굴</title>
+        
+        
+            <description>&lt;h2 id=&quot;블록체인의-채굴&quot;&gt;블록체인의 채굴&lt;/h2&gt;
+</description>
+        
+        <pubDate>Wed, 25 May 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post19/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post19/</guid>
+      </item>
+    
+	<item>
+		<title>NextJs에서 Web3 (MetaMask, ConnectWallet) 연결 구현하기 - with ethers.js / web3Modal</title>
+        
+        
+            <description>&lt;h2 id=&quot;라이브러리&quot;&gt;라이브러리&lt;/h2&gt;
+</description>
+        
+        <pubDate>Wed, 18 May 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post18/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post18/</guid>
+      </item>
+    
+	<item>
+		<title>블록체인 SideChain</title>
+        
+        
+            <description>&lt;h1 id=&quot;sidechain&quot;&gt;SideChain&lt;/h1&gt;
+&lt;p&gt;먼저, 사이드 체인이 나오게 된 배경은 비트코인의 여러가지 한계점 때문에 나오게 되었다.&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 17 May 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post17/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post17/</guid>
+      </item>
+    
+	<item>
+		<title>NextJs에 Chakra UI + Typescript (emotion) 적용</title>
+        
+        
+            <description>&lt;h1 id=&quot;chara-ui&quot;&gt;Chara UI&lt;/h1&gt;
+</description>
+        
+        <pubDate>Mon, 16 May 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post16/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post16/</guid>
+      </item>
+    
+	<item>
+		<title>NestJs 순환 종속성</title>
+        
+        
+            <description>&lt;h1 id=&quot;순환-종속성-오류-circular-dependency-error&quot;&gt;순환 종속성 오류 (circular dependency error)&lt;/h1&gt;
+</description>
+        
+        <pubDate>Fri, 13 May 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post15/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post15/</guid>
+      </item>
+    
+	<item>
+		<title>Smart Contract으로 ERC-20 토큰 만들기 (OpenZepplin ERC20 소스분석)</title>
+        
+        
+            <description>&lt;h1 id=&quot;erc-20&quot;&gt;ERC-20&lt;/h1&gt;
+</description>
+        
+        <pubDate>Tue, 10 May 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post14/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post14/</guid>
+      </item>
+    
+  </channel>
+</rss>
