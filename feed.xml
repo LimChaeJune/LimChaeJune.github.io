@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</description>
+    <link>https://limchaejune.github.io/</link>
+    <atom:link href="https://limchaejune.github.io//feed.xml" rel="self" type="application/rss+xml" />
+	<lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0900</lastBuildDate>
+	
+	<item>
+		<title>테스트 주도 개발 패턴</title>
+        
+        
+            <description>&lt;h2 id=&quot;tdd-test-driven-development&quot;&gt;TDD (Test Driven Development)&lt;/h2&gt;
+</description>
+        
+        <pubDate>Fri, 06 Jan 2023 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post34/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post34/</guid>
+      </item>
+    
+	<item>
+		<title>2022년 회고</title>
+        
+        
+            <description>&lt;h1 id=&quot;2022년-무슨-일이-있었나&quot;&gt;2022년 무슨 일이 있었나?&lt;/h1&gt;
+</description>
+        
+        <pubDate>Fri, 30 Dec 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post33/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post33/</guid>
+      </item>
+    
+	<item>
+		<title>Atomic Design Pattern</title>
+        
+        
+            <description>&lt;h1 id=&quot;atomic-design-pattern&quot;&gt;Atomic Design Pattern&lt;/h1&gt;
+</description>
+        
+        <pubDate>Tue, 15 Nov 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post32/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post32/</guid>
+      </item>
+    
+	<item>
+		<title>RxJS (feat.반응형 프로그래밍)</title>
+        
+        
+            <description>&lt;h1 id=&quot;rxjs&quot;&gt;RxJs&lt;/h1&gt;
+</description>
+        
+        <pubDate>Mon, 14 Nov 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post31/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post31/</guid>
+      </item>
+    
+	<item>
+		<title>Graph</title>
+        
+        
+            <description>&lt;h1 id=&quot;graph&quot;&gt;Graph&lt;/h1&gt;
+</description>
+        
+        <pubDate>Mon, 03 Oct 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post30/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post30/</guid>
+      </item>
+    
+	<item>
+		<title>React에 StoryBook 셋업하기!</title>
+        
+        
+            <description>&lt;h2 id=&quot;storybook-install&quot;&gt;Storybook install&lt;/h2&gt;
+</description>
+        
+        <pubDate>Thu, 01 Sep 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post29/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post29/</guid>
+      </item>
+    
+	<item>
+		<title>프론트엔드 개발자 취업 후기</title>
+        
+        
+            <description>&lt;h1 id=&quot;시작-전에&quot;&gt;시작 전에&lt;/h1&gt;
+</description>
+        
+        <pubDate>Mon, 29 Aug 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post28/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post28/</guid>
+      </item>
+    
+	<item>
+		<title>OSI 7 계층과 TCP/IP 4계층</title>
+        
+        
+            <description>&lt;h2 id=&quot;osi-7계층&quot;&gt;OSI 7계층&lt;/h2&gt;
+</description>
+        
+        <pubDate>Mon, 15 Aug 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post27/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post27/</guid>
+      </item>
+    
+	<item>
+		<title>프로세스와 쓰레드</title>
+        
+        
+            <description>&lt;h1 id=&quot;메모리-구조&quot;&gt;메모리 구조&lt;/h1&gt;
+</description>
+        
+        <pubDate>Sun, 07 Aug 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post26/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post26/</guid>
+      </item>
+    
+	<item>
+		<title>React에서 SSR (NextJS vs Gatsby)</title>
+        
+        
+            <description>&lt;h2 id=&quot;react-ssr&quot;&gt;React SSR&lt;/h2&gt;
+</description>
+        
+        <pubDate>Fri, 05 Aug 2022 00:00:00 +0900</pubDate>
+        <link>https://limchaejune.github.io//posts/post25/</link>
+        <guid isPermaLink="true">https://limchaejune.github.io//posts/post25/</guid>
+      </item>
+    
+  </channel>
+</rss>
