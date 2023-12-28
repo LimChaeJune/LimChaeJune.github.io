@@ -14,6 +14,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+ - name: Clear Cache
+      run: |
+        echo "::remove-workflow-cache::{\"key\":\"your-cache-key\"}"
+      if: always()
+    
+
       - name: Checkout
         uses: actions/checkout@v2
         with:
