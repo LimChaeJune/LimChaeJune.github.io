@@ -3,46 +3,42 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
-# and doesn't have a custom domain.
-baseurl: ""
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: ko
+lang: en
 
-# Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
-prefer_datetime_locale:
-
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 기록을 위한 블로그 # the main title
+title: Chaejune Blog # the main title
 
-tagline: CS, 개발, 취업 준비 등 여러가지를 공유하기 위한 블로그입니다! # it will display as the sub-title
+tagline: A text-focused Jekyll theme # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://limchaejune.github.io/"
+# Fill in the protocol & hostname for your site.
+# e.g. 'https://username.github.io', note that it does not end with a '/'.
+url: "https://limchaejune.github.io"
 
 github:
   username: LimChaeJune # change to your github username
+
+twitter:
+  username: chaejune # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: LimChaeJune
-  email: cownsgg@outlook.com # change to your email address
+  email: siwon080@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/LimChaeJune      # change to your twitter homepage
+    - https://twitter.com/chaejune # change to your twitter homepage
     - https://github.com/LimChaeJune # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -50,16 +46,11 @@ social:
 
 google_site_verification: # fill in to your verification string
 
-futrue: true
-
 # ↑ --------------------------
+# The end of `jekyll-seo-tag` settings
 
 google_analytics:
   id: # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint: # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path: # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
 #
@@ -72,19 +63,19 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark # [light|dark]
+theme_mode: # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/킹냥이.jpg"
+avatar: "/commons/avatar.jpg"
 
-# boolean type, the global switch for ToC in posts.
+# boolean type, the global switch for TOC in posts.
 toc: true
 
 comments:
@@ -96,8 +87,32 @@ comments:
   utterances:
     repo: # <gh-username>/<repo>
     issue_term: # < url | pathname | title | ...>
+  # Giscus options › https://giscus.app
+  giscus:
+    repo: # <gh-username>/<repo>
+    repo_id:
+    category:
+    category_id:
+    mapping: # optional, default to 'pathname'
+    input_position: # optional, default to 'bottom'
+    lang: # optional, default to the value of `site.lang`
+    reactions_enabled: # optional, default to the value of `1`
+
+# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+assets:
+  self_host:
+    enabled: # boolean, keep empty means false
+    # specify the Jekyll environment, empty means both
+    # only works if `assets.self_host.enabled` is 'true'
+    env: # [development|production]
+
+pwa:
+  enabled: true # the option for PWA feature
 
 paginate: 10
+
+# The base URL of your site
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -138,6 +153,14 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: assets/img/favicons
+    values:
+      swcache: true
+  - scope:
+      path: assets/js/dist
+    values:
+      swcache: true
 
 sass:
   style: compressed
@@ -154,12 +177,11 @@ compress_html:
 exclude:
   - "*.gem"
   - "*.gemspec"
-  - tools
   - docs
+  - tools
   - README.md
   - LICENSE
-  - gulpfile.js
-  - node_modules
+  - rollup.config.js
   - package*.json
 
 jekyll-archives:
